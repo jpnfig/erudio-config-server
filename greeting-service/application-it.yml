@@ -8,10 +8,10 @@ management:
     web:
       exposure:
         include:
-        - '*'
+          - '*'
   endpoint:
     health:
       show-details: ALWAYS
 greeting-service:
-  greeting: "Hello"
-  default-value: "World"
+  greeting: "Pronto"
+  default-value: "Mondo"
